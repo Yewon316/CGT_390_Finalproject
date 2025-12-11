@@ -63,8 +63,7 @@ export default function HomePage() {
         <div>
           <h1 className="hero-title">Welcome to Bookshelf</h1>
           <p className="hero-sub">
-            Track your reading, save your thoughts, and remember every story
-            that shapes you. Curate your own cozy shelf of favorites.
+            Track your reading, save your thoughts, and remember every story.
           </p>
         </div>
         <div>
