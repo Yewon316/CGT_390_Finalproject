@@ -87,8 +87,7 @@ export default async function BooksPage({ searchParams }: PageProps) {
       </div>
 
       {books.length === 0 ? (
-        <p style={{ color: "#grey" }}>
-          No books yet. Click Add Book
+        <p style={{ color: "#grey" }}>No books Click Add Book
         </p>
       ) : (
         <div className="shelf-wall">
@@ -106,8 +105,7 @@ export default async function BooksPage({ searchParams }: PageProps) {
                             className="book-cover-image"
                           />
                         ) : (
-                          <div className="book-cover-placeholder">
-                            Add cover
+                          <div className="book-cover-placeholder">Add cover
                           </div>
                         )}
                       </div>

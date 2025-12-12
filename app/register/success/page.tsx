@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function RegisterSuccessPage() {
   return (
     <div className="auth-card">
-      <h1 className="auth-title">Thanks for joining!</h1>
+      <h1 className="auth-title">Thanks</h1>
       <p className="auth-subtitle">
-        Your account has been created. You can sign in now.
+        Your account has been created.
       </p>
 
       <Link href="/login">
@@ -19,7 +19,7 @@ export default function RegisterSuccessPage() {
       </Link>
 
       <p className="auth-footer">
-        Ready to start? Log in to begin tracking your books.
+        Log in to begin tracking your books.
       </p>
     </div>
   );

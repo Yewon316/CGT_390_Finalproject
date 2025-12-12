@@ -32,13 +32,13 @@ export default function AboutPage() {
         >
           Developer
         </h2>
-        <p style={{ color: "#4b5563", lineHeight: 1.5 }}>
-          Bookshelf is a CGT 390 Final project designed and developed by 
+        <p style={{ color: "#363d47ff", lineHeight: 1.5 }}>
+          Bookshelf is a CGT 390 Final project developed by 
           <strong> Yewon Choi</strong>.
         </p>
-        <p style={{ color: "#4b5563", lineHeight: 1.5, marginTop: "0.5rem" }}>
-          The goal of this app is make it easy to track what you&apos;re
-          reading and write your thought.
+        <p style={{ color: "#363d47ff", lineHeight: 1.5, marginTop: "0.5rem" }}>
+          The goal of this app is make it easy to track what youre
+          reading and write your thought
         </p>
       </section>
     </div>

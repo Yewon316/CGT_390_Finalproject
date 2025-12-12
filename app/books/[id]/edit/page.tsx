@@ -32,7 +32,7 @@ export default async function EditBookPage({ params }: PageProps) {
   if (!book) {
     return (
       <div style={{ padding: "1rem 0" }}>
-        <p>Book not found.</p>
+        <p>Book not found</p>
         <Link href="/books" style={{ color: "#1e3a8a", fontSize: "0.9rem" }}>
           Back to bookshelf
         </Link>

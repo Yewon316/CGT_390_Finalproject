@@ -69,7 +69,7 @@ export default function FilterControls({
           disabled={isPending}
           style={{
             marginLeft: "0.35rem",
-            border: "1px solid #d1d5db",
+            border: "1px solid #ffffff",
             borderRadius: "0.5rem",
             padding: "0.3rem 0.6rem",
           }}
@@ -82,7 +82,7 @@ export default function FilterControls({
         </select>
       </label>
 
-      <label style={{ fontSize: "0.85rem", color: "#374151" }}>
+      <label style={{ fontSize: "0.85rem", color: "#3b4048ff" }}>
         Sort by{" "}
         <select
           value={currentSort}
@@ -90,7 +90,7 @@ export default function FilterControls({
           disabled={isPending}
           style={{
             marginLeft: "0.35rem",
-            border: "1px solid #d1d5db",
+            border: "1px solid #ffffff",
             borderRadius: "0.5rem",
             padding: "0.3rem 0.6rem",
           }}
