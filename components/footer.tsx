@@ -22,7 +22,7 @@ export default function Footer() {
           color: "#6b7280",
         }}
       >
-        <span>© {new Date().getFullYear()} Bookshelf</span>
+        <span>{new Date().getFullYear()} Bookshelf</span>
         <div style={{ display: "flex", gap: "1rem" }}>
           <Link href="/about">
             <button
